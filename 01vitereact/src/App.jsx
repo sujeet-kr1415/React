@@ -1,10 +1,15 @@
-
+import Chai from "./chai"
 
 function App() {
   
   return (
-    <h1>sujeet and react with vite</h1>
+    <>
+    <Chai />
+    <h1>Hello folks</h1>
+    <p>Start learning new skills</p>
+    </>
   )
+  // wrape everything in jsx fragment <></>
 }
 
 export default App
